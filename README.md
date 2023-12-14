@@ -1,10 +1,14 @@
-#test project
+#test app
 
-build project
+### build app
 
-/gradlew build
+`/gradlew build`
 
-java -jar test-0.0.1-SNAPSHOT.jar
+### start app
+
+`java -jar ./build/libs/test-0.0.1-SNAPSHOT.jar`
 
 
-port 8080
+###port 8080
+
+`curl GET http://localhost:8080/`
